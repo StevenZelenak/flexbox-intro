@@ -64,3 +64,19 @@ footer{
     left: 0;
     bottom: 0;
 }
+
+/* Dogs page */
+.dogs {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+
+}
+
+.dogs img{
+    
+    height: 250px;
+    width: 250px;
+}
