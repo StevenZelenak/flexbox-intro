@@ -1,3 +1,54 @@
 body {
-    background-color: aquamarine;
+
+    background-color: white;
+    clear: both;
+    margin-bottom: 100px;
+    margin: 0;
+    min-height: 400px;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* Header */
+/* Navigation */
+
+
+
+.navbar {
+    background-color: tomato;
+    display: flex;
+}
+
+.navbar h1{
+    padding: 0 20px;
+    line-height: 1.5em;
+}
+
+.navbar ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item{
+    background-color: rgba(255, 99, 71, 0.863);
+}
+
+.nav-item a{
+    margin: 1em;
+  display: block;
+  color: #111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.nav-item a:hover{
+    color: white;
+    background-color: thistle;
+
 }
