@@ -49,7 +49,8 @@ body {
 
 .nav-item a:hover{
     color: white;
-    background-color: thistle;
+    background-color: rgb(180, 42, 18);
+    border-radius: 5px;
 
 }
 
@@ -71,12 +72,39 @@ footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-
+    justify-content: space-evenly;
 
 }
 
 .dogs img{
     
+    box-shadow: 10px 10px;
+    border: 5px solid tomato;
+    border-radius: .5em;
     height: 250px;
     width: 250px;
 }
+
+/* cats page */
+
+.cats {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.cats img{
+    
+    box-shadow: 10px 10px;
+    border: 5px solid tomato;
+    border-radius: .5em;
+    
+    height: 250px;
+    width: 250px;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  }
