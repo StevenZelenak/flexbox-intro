@@ -52,3 +52,15 @@ body {
     background-color: thistle;
 
 }
+
+/* footer */
+
+footer{
+    width: 100%;
+    color: white;
+    background-color: tomato;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
